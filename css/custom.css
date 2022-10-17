@@ -1,0 +1,64 @@
+@charset "utf-8";
+:root {
+    --custom-color1: #2E4650;
+    --custom-color2: #858585;
+    --custom-color3: #858585;
+
+
+}
+.bg-green {
+    background: var(--custom-color1);
+}
+
+/*메인 >상품목록>탭
+.nav{
+    gap : 1rem
+ }
+ .nav-pills .nav-link {
+     background: var(--custom-color3);
+ 
+ }
+ .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color:  var(--custom-color2);
+    background: var(--custom-color1);    
+ }
+ .bg-ship {
+     background: var(--custom-color3);
+     color: var(--custom-color6);
+ }
+ .bg-special {
+     background: var(--custom-color5);
+ }
+ .banner-text{
+     font-size: .875rem;
+ }
+ #topNav{
+     font-size: .875rem; /* 16px * 0.875 = 14px
+ }
+ */
+ 
+ /*aside*/
+
+ .news {
+     color: var(--custom-color2);
+     }
+ .news span  {
+ font-size: .750rem;
+ }
+ .move-top{
+     color: var(--custom-color2);
+     background: var(--custom-color7);    
+ }
+@media screen and (max-width : 576px) {
+    html {
+        font-size: 20px;
+    }
+    /*뷰포트마다 다른 UI를 처리할때 */
+}
+.main-logo {
+    max-width: 320px;
+   }
+.main-logo img{
+       width: 100%;
+       object-fit: cover;
+   }
