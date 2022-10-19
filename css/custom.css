@@ -10,6 +10,7 @@
     background: var(--custom-color1);
 }
 
+
 /*메인 >상품목록>탭
 .nav{
     gap : 1rem
@@ -62,3 +63,14 @@
        width: 100%;
        object-fit: cover;
    }
+ 
+#event_btn {
+    background-color: #ff7e39;
+    border-color: transparent;
+
+}
+.event_btn{
+    border-color: #ff7e39;
+
+    background-color: transparent;
+}
