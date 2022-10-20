@@ -43,35 +43,37 @@
         </div>
     </header>
     <!--carousel-->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner ">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/visual_1.png" class="d-block w-100" width="1000" height="600" alt="비주얼이미지1">
-          </div>
-          <div class="carousel-item">
             <img src="images/visual_2.png" class="d-block w-100" width="1000"  height="600" alt="비주얼이미지2">
           </div>
           <div class="carousel-item">
-            <img src="images/visual_3.png" class="d-block w-100" width="1000" height="600" alt="비주얼이미지3">
+            <img src="images/visual_3.png" class="d-block w-100" width="1000" height="600" alt="비주얼이미지3">>
           </div>
           <div class="carousel-item">
             <img src="images/visual_4.png" class="d-block w-100" width="1000" height="600" alt="비주얼이미지4">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </button>
-      </div>
+      </div>  
     <!--end carousel-->
     <section>
         <article>
             <div class="container my-5">                
-                <p class="text-center  d-flex justify-content-center">
+                <p class="text-center  mt-3  d-flex justify-content-center">
                     호텔 오노마 대전 오토그래프 컬렉션은 대전 엑스포타워의 5~7층, 26층~37층, 총 15개층으로 운영됩니다. 
                     <br>건물 27층부터 37층까지 위치한 객실은 13개의 스위트룸을 포함해 총171실입니다.  
                     <br>
@@ -115,7 +117,7 @@
         </article>
         <article> 
             <div class="container my-5">
-            <h2  class="loca_title d-flex justify-content-center">오시는 길</h2>                         
+            <h3  class="d-flex justify-content-center">오시는 길</h3>                         
             <div class="contanier d-flex justify-content-center">
                 <div class="row mt-5">
                     <div class="col-sm px-md-5">
