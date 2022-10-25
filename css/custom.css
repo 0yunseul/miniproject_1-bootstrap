@@ -12,7 +12,10 @@
 .nav-item a {
     color: white;
 }
-
+.trans {
+    color: black;
+    border: #858585;
+}
  .news {
      color: var(--custom-color2);
      }
@@ -51,8 +54,9 @@
     background: var(--custom-color1);
     color: white;
 }
-.btn-primary {
+.btn-light{
     background: var(--custom-color1);
     border: 0;
+    color: white;
 }
 
